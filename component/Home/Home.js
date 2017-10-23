@@ -1,16 +1,21 @@
 import React from 'react'
-import { StyleSheet, Text, View, Button } from 'react-native'
+import { StyleSheet, Text, View } from 'react-native'
 
 import Item from '../Item'
+
 export default ({ navigation }) => (
   <View style={styles.container}>
     <Text>Home</Text>
-    <Item onPress={() => {
+    <Item
+      onPress={() => {
         navigation.navigate('FullVideo')
-      }}/>
-    <Item onPress={() => {
+      }}
+    />
+    <Item
+      onPress={() => {
         navigation.navigate('FullVideo')
-      }}/>
+      }}
+    />
   </View>
 )
 

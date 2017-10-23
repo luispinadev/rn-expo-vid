@@ -1,6 +1,4 @@
 import React from 'react'
-import { Video } from 'expo'
-
 import { TabNavigator } from 'react-navigation'
 
 import Home from './component/Home'
@@ -16,10 +14,9 @@ const App = TabNavigator(
     },
   },
   {
-    navigationOptions:
-    {
+    navigationOptions: {
       tabBarVisible: false,
-    }
+    },
   }
 )
 
